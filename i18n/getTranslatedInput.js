@@ -35,7 +35,6 @@ function getTranslatedInput(
   if ( options.hk != null ) {
     let translatedPayload = FbtI18nNativeAssets.getString( options.hk );
     if ( translatedPayload ) {
-      console.log( input, "input" );
       return {table: JSON.parse( translatedPayload ), args: input.args};
     }
   }

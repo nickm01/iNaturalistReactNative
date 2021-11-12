@@ -31,49 +31,49 @@
 // here is the list of ISO-639 language codes currently supported in iOS (Nov 10, 2021)
 // https://www.ibabbleon.com/iOS-Language-Codes-ISO-639.html
 const supportedLocaleCodes = {
-  ar: "ar",
-  ca: "ca",
-  "zh-CN": "zh-Hans",
-  "zh-TW": "zh-Hant",
-  "zh-HK": "zh-HK",
-  hr: "hr",
-  cs: "cs",
+  // ar: "ar",
+  // ca: "ca",
+  // "zh-CN": "zh-Hans",
+  // "zh-TW": "zh-Hant",
+  // "zh-HK": "zh-HK",
+  // hr: "hr",
+  // cs: "cs",
   da: "da",
-  "en-GB": "en-GB",
-  "en-AU": "en-AU",
-  "en-CA": "en-CA",
-  "en-IN": "en-IN",
-  "en-IE": "en-IE",
-  "en-NZ": "en-NZ",
-  "en-SG": "en-SG",
-  "en-ZA": "en-ZA",
-  fi: "fi",
-  fr: "fr",
-  "fr-CA": "fr-CA",
-  de: "de",
-  el: "el",
-  he: "he",
-  hi: "hi",
-  hu: "hu",
-  id: "id",
-  it: "it",
-  ja: "ja",
-  ko: "ko",
-  ms: "ms",
-  nb: "nb",
-  pl: "pl",
-  "pt-PT": "pt",
-  "pt-BR": "pt-BR",
-  ro: "ro",
-  sk: "sk",
-  "es-ES": "es",
-  "es-AR": "es-419",
-  "es-MX": "es-MX",
-  sv: "sv",
-  th: "th",
-  tr: "tr",
-  uk: "uk",
-  vi: "vi"
+  // "en-GB": "en-GB",
+  // "en-AU": "en-AU",
+  // "en-CA": "en-CA",
+  // "en-IN": "en-IN",
+  // "en-IE": "en-IE",
+  // "en-NZ": "en-NZ",
+  // "en-SG": "en-SG",
+  // "en-ZA": "en-ZA",
+  // fi: "fi",
+  // fr: "fr",
+  // "fr-CA": "fr-CA",
+  de: "de"
+  // el: "el",
+  // he: "he",
+  // hi: "hi",
+  // hu: "hu",
+  // id: "id",
+  // it: "it",
+  // ja: "ja",
+  // ko: "ko",
+  // ms: "ms",
+  // nb: "nb",
+  // pl: "pl",
+  // "pt-PT": "pt",
+  // "pt-BR": "pt-BR",
+  // ro: "ro",
+  // sk: "sk",
+  // "es-ES": "es",
+  // "es-AR": "es-419",
+  // "es-MX": "es-MX",
+  // sv: "sv",
+  // th: "th",
+  // tr: "tr",
+  // uk: "uk",
+  // vi: "vi"
 };
 
  /**
@@ -141,10 +141,10 @@ function generateiOSLocale( locale: string ): ?string {
           const plurals = values[hash];
           const pluralList = Object.keys( plurals );
           if ( pluralList.length > 0 && typeof plurals !== "string" ) {
-            pluralList.forEach( plural => {
-              newLine = `"${hash}-${plural}" = "\\${plurals[plural]}\\""`;
-              createFiles.write( newLine + ";\r\n" );
-            } );
+            // pluralList.forEach( plural => {
+            //   newLine = `"${hash}-${plural}" = "\\${plurals[plural]}\\""`;
+            //   createFiles.write( newLine + ";\r\n" );
+            // } );
           } else {
             newLine = `"${hash}" = "\\"${values[hash]}\\""`;
             createFiles.write( newLine + ";\r\n" );

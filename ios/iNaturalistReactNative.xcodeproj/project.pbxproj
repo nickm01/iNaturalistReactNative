@@ -11,8 +11,7 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		3729B384273B13CC0044E012 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3729B386273B13CC0044E012 /* Localizable.strings */; };
-		37C06BD4273C8D49007495C3 /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = 37C06BD3273C8D49007495C3 /* Localizable.stringsdict */; };
+		37BFBC9B273DC78800F59AAC /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 37BFBC9D273DC78800F59AAC /* Localizable.strings */; };
 		69EB4B17196BA7693C5C9F10 /* libPods-iNaturalistReactNative-iNaturalistReactNativeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8169D874847737ACF50858BC /* libPods-iNaturalistReactNative-iNaturalistReactNativeTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		FCA3DAE5271E7E17DBF8808E /* libPods-iNaturalistReactNative.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BD9BD3C540764FBA375535D /* libPods-iNaturalistReactNative.a */; };
@@ -39,11 +38,9 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = iNaturalistReactNative/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = iNaturalistReactNative/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = iNaturalistReactNative/main.m; sourceTree = "<group>"; };
-		3729B385273B13CC0044E012 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		3729B387273B13D10044E012 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
-		3729B388273B13D20044E012 /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		3755CBA3273C4E9A0050527D /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/Localizable.strings; sourceTree = "<group>"; };
-		37C06BD3273C8D49007495C3 /* Localizable.stringsdict */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; path = Localizable.stringsdict; sourceTree = "<group>"; };
+		37BFBC9C273DC78800F59AAC /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		37BFBC9E273DC78C00F59AAC /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/Localizable.strings; sourceTree = "<group>"; };
+		37BFBC9F273DC79E00F59AAC /* en-GB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-GB"; path = "en-GB.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		4398DBA7A239ACD06B75914F /* Pods-iNaturalistReactNative-iNaturalistReactNativeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iNaturalistReactNative-iNaturalistReactNativeTests.debug.xcconfig"; path = "Target Support Files/Pods-iNaturalistReactNative-iNaturalistReactNativeTests/Pods-iNaturalistReactNative-iNaturalistReactNativeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7A095FCC327617021DA5A8E8 /* Pods-iNaturalistReactNative-iNaturalistReactNativeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iNaturalistReactNative-iNaturalistReactNativeTests.release.xcconfig"; path = "Target Support Files/Pods-iNaturalistReactNative-iNaturalistReactNativeTests/Pods-iNaturalistReactNative-iNaturalistReactNativeTests.release.xcconfig"; sourceTree = "<group>"; };
 		8169D874847737ACF50858BC /* libPods-iNaturalistReactNative-iNaturalistReactNativeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iNaturalistReactNative-iNaturalistReactNativeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -93,11 +90,11 @@
 		13B07FAE1A68108700A75B9A /* iNaturalistReactNative */ = {
 			isa = PBXGroup;
 			children = (
+				37BFBC9D273DC78800F59AAC /* Localizable.strings */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
-				3729B386273B13CC0044E012 /* Localizable.strings */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
@@ -135,7 +132,6 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				37C06BD3273C8D49007495C3 /* Localizable.stringsdict */,
 				13B07FAE1A68108700A75B9A /* iNaturalistReactNative */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* iNaturalistReactNativeTests */,
@@ -226,10 +222,23 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 				es,
 				"es-419",
 				da,
+				ar,
+				ca,
+				"zh-HK",
+				"zh-Hans",
+				"zh-Hant",
+				de,
+				hr,
+				cs,
+				nl,
+				"en-AU",
+				"en-IN",
+				"en-GB",
+				fi,
+				Base,
 			);
 			mainGroup = 83CBB9F61A601CBA00E9B192;
 			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
@@ -255,8 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
-				37C06BD4273C8D49007495C3 /* Localizable.stringsdict in Resources */,
-				3729B384273B13CC0044E012 /* Localizable.strings in Resources */,
+				37BFBC9B273DC78800F59AAC /* Localizable.strings in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,7 +284,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "export NODE_BINARY=/Users/amanda/.nvm/versions/node/v12.13.0/bin/node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+			shellScript = "export NODE_BINARY=$(SRCROOT)\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
 		1FD4222B7F70ADBF9D27DFDD /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -440,13 +448,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3729B386273B13CC0044E012 /* Localizable.strings */ = {
+		37BFBC9D273DC78800F59AAC /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3729B385273B13CC0044E012 /* en */,
-				3729B387273B13D10044E012 /* es */,
-				3729B388273B13D20044E012 /* es-419 */,
-				3755CBA3273C4E9A0050527D /* da */,
+				37BFBC9C273DC78800F59AAC /* de */,
+				37BFBC9E273DC78C00F59AAC /* da */,
+				37BFBC9F273DC79E00F59AAC /* en-GB */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
