@@ -1,4 +1,4 @@
 files:
-  - source: /translations/en.json
+  - source: /translations/en-default.json
     translation: /translations/%two_letters_code%.json
     update_option: update_as_unapproved
