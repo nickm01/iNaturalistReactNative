@@ -1,6 +1,7 @@
 files:
   - source: /i18n/fbt/.source_strings.json
     translation: /i18n/fbt/translations/%two_letters_code%/translation.json
+    update_option: update_as_unapproved
     excluded_target_languages:
       - ar
       - be
