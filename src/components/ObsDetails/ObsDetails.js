@@ -14,6 +14,7 @@ import ActivityTab from "./ActivityTab";
 import UserIcon from "../SharedComponents/UserIcon";
 import PhotoScroll from "./PhotoScroll";
 import DataTab from "./DataTab";
+import EditButtons from "./EditButtons";
 
 const ObsDetails = ( ): Node => {
   const [tab, setTab] = useState( 0 );
@@ -74,6 +75,7 @@ const ObsDetails = ( ): Node => {
         </Pressable>
       </View>
       {tab === 0 ? <ActivityTab ids={ids} /> : <DataTab observation={observation} />}
+      {tab === 0 && <EditButtons />}
       </ScrollView>
     </ViewWithFooter>
   );

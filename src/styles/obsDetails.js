@@ -8,6 +8,13 @@ import { colors } from "./global";
 const { width } = Dimensions.get( "screen" );
 
 const viewStyles: { [string]: ViewStyleProp } = StyleSheet.create( {
+  greenButtonRow: {
+    flexDirection: "row",
+    flexWrap: "nowrap",
+    alignItems: "center",
+    justifyContent: "space-evenly",
+    marginTop: 20
+  },
   imageBackground: {
     width: 75,
     height: 75,
