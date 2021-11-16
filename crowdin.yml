@@ -1,6 +1,6 @@
 files:
   - source: /translations/en-default.json
-    translation: /translations/%two_letters_code%.json
+    translation: /translations/%locale%.json
     update_option: update_as_unapproved
     type: i18next_json
     excluded_target_languages:
@@ -47,7 +47,6 @@ files:
       - pl
       - pt
       - ro
-      - ru
       - sh
       - si
       - sk
